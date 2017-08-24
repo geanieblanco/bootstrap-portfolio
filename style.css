@@ -1,0 +1,101 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	padding-top: 10px;
+}
+
+body {
+	font-family: 'Pontano Sans', sans-serif;
+	background-color: #011627;
+}
+
+.nav-link, .nav-link:active, .nav-link:hover, .nav-link:visited {
+	text-decoration: none;
+	padding-top: 22px;
+	color:#011627;
+}
+
+
+.headercontainer {
+	background-color:#FF9F1C;
+	border-bottom: 4px #41EAD4 solid;
+}
+
+
+#title {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 50px;
+	border-right: 2px #011627 solid;
+	padding-right: 5px;
+}
+
+#subtitle {
+	font-size:30px;
+	padding-left: 5px;
+	margin-top:5px;
+}
+
+.bodycontainer {
+	margin-top: 15px;
+}
+
+#profimg {
+	width: 25%;
+	padding: 5px;
+	float: left;
+}
+
+.about, .links {
+	background-color:#FDFFFC;
+}
+
+.links {
+	height: 200px;
+}
+
+footer {
+	height: 60px;
+	width: 100%;
+	background-color:#FF9F1C;
+	bottom: 0;
+	margin-top: 20px;
+}
+
+footer h6 {
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+/*PORTFOLIO*/
+.projectimg {
+	width: 100%;
+	padding: 10px 10px 0px 10px;
+}
+
+.figure-caption {
+	text-align: center;
+	margin-top: 3px;
+	background-color: #41EAD4;
+	color:black;
+}
+
+/*FORM*/
+form {
+	padding: 10px;
+}
+
+button {
+	background-color: #011627;
+	color:#FDFFFC;
+}
